@@ -50,9 +50,6 @@ directorio project arduino/main.ino
 
 	node-dev app.js
 
-# Tutorial
-[Tutorial de sensor de toque capacitivo MPR121](https://naylampmechatronics.com/blog/30_Tutorial-sensor-t%C3%A1ctil-capacitivo-MPR121.html)
-
 # Credits
 [How to Create an Interactive Animated SVG Drum Kit](https://tympanus.net/codrops/2016/03/16/interactive-animated-svg-drum-kit/)
 

@@ -5,10 +5,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Animated SVG Drum Kit | Codrops</title>
-	<meta name="description" content="Demo of the tutorial on how to animate an SVG drum kit and create a simple sequencer">
-	<meta name="keywords" content="drum kit, drums, svg, animation, music, sequencer, tutorial, web design">
-	<meta name="author" content="Codrops">
+	<title>Ardrums</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="RodriguesFAS">
+	<meta name="credits" content="Codrops">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
@@ -29,15 +30,55 @@
 		var socket = io();
 
 		socket.on("dataDuino", function (data) {
+			if (data.value == 0) {
+				console.log("Big-Rack-Tom" + data);
+				var snareAudio = $('#Big-Rack-Tom-Audio');
+				var snareAudioEl = snareAudio.get(0);
+				snareAudioEl.currentTime = 0;
+				snareAudioEl.play();
+			}
 			if (data.value == 1) {
-				console.log("Bateu na caixa");
-				console.log(data);
+				console.log("Crash" + data);
+				var snareAudio = $('#Crash-Audio');
+				var snareAudioEl = snareAudio.get(0);
+				snareAudioEl.currentTime = 0;
+				snareAudioEl.play();
+			}
+			if (data.value == 2) {
+				console.log("Floor-Tom" + data);
+				var snareAudio = $('#Floor-Tom-Audio');
+				var snareAudioEl = snareAudio.get(0);
+				snareAudioEl.currentTime = 0;
+				snareAudioEl.play();
+			}
+			if (data.value == 3) {
+				console.log("Hi-Hat-Closed" + data);
+				var snareAudio = $('#Hi-Hat-Closed-Audio');
+				var snareAudioEl = snareAudio.get(0);
+				snareAudioEl.currentTime = 0;
+				snareAudioEl.play();
+			}
+			if (data.value == 4) {
+				console.log("Kick" + data);
+				var snareAudio = $('#Kick-Audio');
+				var snareAudioEl = snareAudio.get(0);
+				snareAudioEl.currentTime = 0;
+				snareAudioEl.play();
+			}
+			if (data.value == 5) {
+				console.log("Small-Rack-Tom" + data);
+				var snareAudio = $('#Small-Rack-Tom-Audio');
+				var snareAudioEl = snareAudio.get(0);
+				snareAudioEl.currentTime = 0;
+				snareAudioEl.play();
+			}
+			if (data.value == 6) {
+				console.log("Snare" + data);
 				var snareAudio = $('#Snare-Audio');
 				var snareAudioEl = snareAudio.get(0);
 				snareAudioEl.currentTime = 0;
 				snareAudioEl.play();
 			}
-
 		});
 	</script>
 
@@ -52,7 +93,7 @@
 					<span>Back to the Codrops article</span>
 				</a>
 			</div>
-			<h1>SVG Drums
+			<h1>Ardrums
 				<span>with
 					<a href="http://greensock.com/">GSAP</a> by
 					<a href="https://twitter.com/iamjoshellis">Josh Ellis</a>

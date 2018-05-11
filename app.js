@@ -1,11 +1,11 @@
 "use strict";
 
 /**
- * Software: Drums
+ * Software: Ardrums
  * @autor: Francisco de Assis de Souza Rodrigues
  * @site: http://rodriguesfas.com.br
  * @license: MIT
- * @data: 24/12/2016
+ * @data: 11/05/2018
  * @vesion: 0.0.1
  */
 
@@ -25,7 +25,7 @@ app.get("/", function(req, res) {
   res.sendfile("view/index.html");
 });
 
-const mySerial = new SerialPort("/dev/ttyUSB1", {
+const mySerial = new SerialPort("/dev/ttyUSB0", {
   baudRate: 9600
 });
 
