@@ -1,20 +1,21 @@
 # Ardrums
 Arduino Drums Touch Capacitive
 
-![Ardrums](https://github.com/rodriguesfas/ardrums/screenshot/01.png)
+![Ardrums](https://github.com/rodriguesfas/ardrums/blob/master/screenshot/01.png)
 
 # List Materials
 
 - Components
+
 	|Quant. | Item          | Link |
 	| :---: | :--:          | :--: |
 	|  01   | Arduino       | []() |
-	|  01   | Módulo MPR121 | []() |
+	|  01   | Módulo MPR121 | [MPR121 Shield Adafruit X 12 Botones Touch Capacitivo](http://teslabem.com/productos/arduino/mpr121-adafruit-12-touch-shield.html) ou [Modulo MPR121 Sensor Capacitivo Tactil](https://naylampmechatronics.com/sensores/173-modulo-mpr121-sensor-capacitivo-tactil.html) |
 	|   -   | Fios e Jumps  | []() |
 
 # Fritzing
 
-![](https://github.com/rodriguesfas/ardrums/screenshot/02.png)
+![Fritzing](https://github.com/rodriguesfas/ardrums/blob/master/screenshot/01.png)
 
 # Install Dependence 
 package.json
@@ -44,6 +45,9 @@ var mySerial = new SerialPort("/dev/ttyUSB0", {
 
 # Run Server
 node-dev app.js
+
+# Tutorial
+[Tutorial de sensor de toque capacitivo MPR121](https://naylampmechatronics.com/blog/30_Tutorial-sensor-t%C3%A1ctil-capacitivo-MPR121.html)
 
 # Credits
 [How to Create an Interactive Animated SVG Drum Kit](https://tympanus.net/codrops/2016/03/16/interactive-animated-svg-drum-kit/)
