@@ -15,7 +15,7 @@ Arduino Drums Touch Capacitive
 
 # Fritzing
 
-![Fritzing](https://github.com/rodriguesfas/ardrums/blob/master/screenshot/01.png)
+![Fritzing](https://github.com/rodriguesfas/ardrums/blob/master/screenshot/02.png)
 
 # Install Dependence 
 package.json
