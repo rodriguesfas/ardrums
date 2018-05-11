@@ -1,6 +1,21 @@
 # Ardrums
 Arduino Drums Touch Capacitive
 
+![Ardrums](https://github.com/rodriguesfas/ardrums/screenshot/01.png)
+
+# List Materials
+
+- Components
+	|Quant. | Item          | Link |
+	| :---: | :--:          | :--: |
+	|  01   | Arduino       | []() |
+	|  01   | Módulo MPR121 | []() |
+	|   -   | Fios e Jumps  | []() |
+
+# Fritzing
+
+![](https://github.com/rodriguesfas/ardrums/screenshot/02.png)
+
 # Install Dependence 
 package.json
 
