@@ -1,0 +1,29 @@
+{
+  "name": "ardrums",
+  "version": "0.1.0",
+  "description": "Arduino Drums Touch Capacitive",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClubeDosGeeksCoding/CodePlants.git"
+  },
+  "keywords": [
+    "socket.io",
+    "arduino"
+  ],
+  "author": "rodriguesfas (https://github.com/rodriguesfas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "#"
+  },
+  "homepage": "#",
+  "dependencies":{
+    "express" : "latest",
+    "socket.io" : "latest",
+    "serialport" : "6.2.0",
+    "node-dev": "lastest"
+  }
+}
