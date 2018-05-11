@@ -1,6 +1,8 @@
 # Ardrums
 Arduino Drums Touch Capacitive
 
+Allows you to play drums using any object at your disposal by means of capacitive touch.
+
 ![Ardrums](https://github.com/rodriguesfas/ardrums/blob/master/screenshot/01.png)
 
 # List Materials
@@ -31,20 +33,22 @@ Permission Port Linux Ubuntu
 # Load code in board Arduino
 directorio project arduino/main.ino
 
-ttyUSB0 = "Your Port USB"
+	ttyUSB0 = "Your Port USB"
 
-sudo chmod 777 /dev/ttyUSB0
-ou
-sudo chmod a+rw /dev/ttyUSB0
+	sudo chmod 777 /dev/ttyUSB0
+		ou
+	sudo chmod a+rw /dev/ttyUSB0
 
 # Config Port in Server
-var mySerial = new SerialPort("/dev/ttyUSB0", {
- 	baudrate : 9600,
- 	parser : serialport.parsers.readline("\n")
- });
+
+	var mySerial = new SerialPort("/dev/ttyUSB0", {
+		baudrate : 9600,
+		parser : serialport.parsers.readline("\n")
+	});
 
 # Run Server
-node-dev app.js
+
+	node-dev app.js
 
 # Tutorial
 [Tutorial de sensor de toque capacitivo MPR121](https://naylampmechatronics.com/blog/30_Tutorial-sensor-t%C3%A1ctil-capacitivo-MPR121.html)
