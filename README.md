@@ -31,4 +31,6 @@ var mySerial = new SerialPort("/dev/ttyUSB0", {
 node-dev app.js
 
 # Credits
+[How to Create an Interactive Animated SVG Drum Kit](https://tympanus.net/codrops/2016/03/16/interactive-animated-svg-drum-kit/)
+
 [Node Arduino SerialPort](https://github.com/FaztWeb/node-arduino-serialport)
