@@ -31,7 +31,7 @@ Selection board userd
 Permission Port Linux Ubuntu
 
 # Load code in board Arduino
-directorio project arduino/main.ino
+directory project arduino/main.ino
 
 	ttyUSB0 = "Your Port USB"
 
